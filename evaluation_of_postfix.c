@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// creating a stack using a linked list
+// the great thing about this stack is that after using the
+// in_to_post function, the stack becomes resusable for the
+// eval function
 struct Node
 {
 	int data;
